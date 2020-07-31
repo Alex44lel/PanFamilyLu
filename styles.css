@@ -1,0 +1,132 @@
+/*
+f4f4f4
+#ffe7ab  blanco
+f0a500 amarillo
+cf7500 naranja
+000000 negro
+
+*/
+
+#base{
+
+  text-align: center;
+}
+
+body{
+  background-color: #f4f4f4;
+  height: 100%;
+}
+
+.title{
+  color:#f0a500;
+  font-family: "Comic Neue";
+  font-size:4rem;
+  font-weight:bold;
+}
+
+.img{
+  margin:5rem 1rem 5rem 1rem;
+  width:12%;
+  height:12%;
+  border-style: solid;
+  border-color:black;
+  border-radius:15%;
+  border-width:4px;
+}
+
+.winnerText{
+  color:#f0a500;
+  font-family: "Comic Neue";
+  font-size:2.5rem;
+  font-weight:600;
+}
+
+.others{
+  display:none;
+}
+
+.winner{
+  margin:1rem 1rem 2.5rem 1rem;
+  width:23%;
+  height:23%;
+  border-style: solid;
+  border-color:black;
+  border-radius:15%;
+  border-width:4px;
+}
+
+.btn{
+  font-family: "Comic Neue";
+  font-size:2.5rem;
+  font-weight:bold;
+  background-color: #f0a500;
+  border-radius:23px;
+  padding:0.8%;
+  border-color: black;
+  border-style: solid;
+}
+@media (max-width: 1050px) {
+
+  .img{
+    margin:2rem 12rem 4rem 12rem;
+    width:37%;
+    height:37%;
+    border-style: solid;
+    border-color:black;
+    border-radius:15%;
+    border-width:4px;
+    display:inline;
+  }
+
+  .btn{
+    font-family: "Comic Neue";
+    font-size:2.5rem;
+    font-weight:bold;
+    background-color: #f0a500;
+    border-radius:23px;
+    padding:2%;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .title{
+    color:#f0a500;
+    font-family: "Comic Neue";
+    font-size:4.5rem;
+    font-weight:bold;
+  }
+
+  .winner{
+    margin:6rem 1rem 6rem 1rem;
+    width:80%;
+    height:80%;
+    border-style: solid;
+    border-color:black;
+    border-radius:15%;
+    border-width:4px;
+  }
+
+  .others{
+    display:none;
+  }
+
+  #againButton{
+    font-family: "Comic Neue";
+    font-size:4rem;
+    font-weight:bold;
+    background-color: #f0a500;
+    border-radius:23px;
+    padding:5%;
+    border-color: black;
+    border-style: solid;
+  }
+
+  #afortunado{
+    color:#f0a500;
+    font-family: "Comic Neue";
+    font-size: 8.4rem;
+    font-weight: 600;
+    margin: 50px 49px 0px 49px;
+  }
+
+}
